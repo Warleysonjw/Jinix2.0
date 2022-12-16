@@ -3,7 +3,7 @@ import threading
 import time
 
 conectado = False
-porta = 'COM3' # Linux ou mac em geral ->  '/dev/ttyS0
+porta = 'COM5' # Linux ou mac em geral ->  '/dev/ttyS0
 velocidadeBaud = 115200
 
 mensagensRecebidas = 1;
@@ -33,7 +33,7 @@ def read_from_port(ser):
                 print("Desligando Arduino")
                 break
 
-lerSerialThread = threading.Thread(target=read_from_port, args=(SerialArduino))
+lerSerialThread = threading.Thread(target=read_from_port, args=(SerialArduino,))
 lerSerialThread.start()
 
 print("Preparando Arduino")
