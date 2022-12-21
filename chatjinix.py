@@ -1,6 +1,6 @@
-from chatterbot_corpus import ListTrainer
+from chatterbot import ListTrainer
 
-from chatterbot_corpus import ChatBot
+from chatterbot import ChatBot
 
 AMGbot = ChatBot("Dinix")
 
