@@ -1,6 +1,6 @@
 import serial
 import threading
-import time
+import time 
 import speech_recognition as sr
 import pyttsx3
 

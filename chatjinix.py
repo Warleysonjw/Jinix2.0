@@ -1,11 +1,12 @@
-from chatterbot import ListTrainer
+# -*- coding: utf-8 -*-
+from chatterbot_corpus import ListTrainer
 
-from chatterbot import ChatBot
+from chatterbot_corpus import ChatBot
 
 AMGbot = ChatBot("Dinix")
 
 conversa1 = ['oi','olá','tudo bem?', 'tudo bem e você?', 'estou òtimo']
-conversa2 = ['bom dia dinix','bom dia mestre bom dia gg','como vão?', 'vamos bem']
+conversa2 = ['bom dia diniz','bom dia mestre bom dia gg','como você esta?', 'estou bem muito obrigada']
 
 treinar = ListTrainer(AMGbot)
 
