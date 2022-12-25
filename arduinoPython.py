@@ -86,7 +86,7 @@ while (True):
                     print("sem socket")               
             SerialArduino.write((text + '\n').encode())
             print("Dado enviado")
-            if(text == "desativar"):
+            if(text == "desativar   '"):
                 print("Saindo")
 
                 desativando = "Dinix desativando."
